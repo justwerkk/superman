@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68C2163D1341AC5400DD716A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C2163C1341AC5400DD716A /* UIKit.framework */; };
+		68C2163F1341AC5400DD716A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C2163E1341AC5400DD716A /* Foundation.framework */; };
+		68C216411341AC5400DD716A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C216401341AC5400DD716A /* CoreGraphics.framework */; };
+		68C216471341AC5400DD716A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68C216451341AC5400DD716A /* InfoPlist.strings */; };
+		68C2164A1341AC5400DD716A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C216491341AC5400DD716A /* main.m */; };
+		68C2164D1341AC5400DD716A /* supermanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C2164C1341AC5400DD716A /* supermanAppDelegate.m */; };
+		68C216501341AC5400DD716A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C2164E1341AC5400DD716A /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68C216381341AC5400DD716A /* superman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C2163C1341AC5400DD716A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68C2163E1341AC5400DD716A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68C216401341AC5400DD716A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68C216441341AC5400DD716A /* superman-Info.plist */ = {isa = PBXFileReference; path = "superman-Info.plist"; sourceTree = "<group>"; };
+		68C216461341AC5400DD716A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68C216481341AC5400DD716A /* superman-Prefix.pch */ = {isa = PBXFileReference; path = "superman-Prefix.pch"; sourceTree = "<group>"; };
+		68C216491341AC5400DD716A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68C2164B1341AC5400DD716A /* supermanAppDelegate.h */ = {isa = PBXFileReference; path = supermanAppDelegate.h; sourceTree = "<group>"; };
+		68C2164C1341AC5400DD716A /* supermanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supermanAppDelegate.m; sourceTree = "<group>"; };
+		68C2164F1341AC5400DD716A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68C216351341AC5400DD716A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C2163D1341AC5400DD716A /* UIKit.framework in Frameworks */,
+				68C2163F1341AC5400DD716A /* Foundation.framework in Frameworks */,
+				68C216411341AC5400DD716A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68C2162D1341AC5400DD716A = {
+			isa = PBXGroup;
+			children = (
+				68C216421341AC5400DD716A /* superman */,
+				68C2163B1341AC5400DD716A /* Frameworks */,
+				68C216391341AC5400DD716A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68C216391341AC5400DD716A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68C216381341AC5400DD716A /* superman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68C2163B1341AC5400DD716A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68C2163C1341AC5400DD716A /* UIKit.framework */,
+				68C2163E1341AC5400DD716A /* Foundation.framework */,
+				68C216401341AC5400DD716A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68C216421341AC5400DD716A /* superman */ = {
+			isa = PBXGroup;
+			children = (
+				68C2164B1341AC5400DD716A /* supermanAppDelegate.h */,
+				68C2164C1341AC5400DD716A /* supermanAppDelegate.m */,
+				68C2164E1341AC5400DD716A /* MainWindow.xib */,
+				68C216431341AC5400DD716A /* Supporting Files */,
+			);
+			path = superman;
+			sourceTree = "<group>";
+		};
+		68C216431341AC5400DD716A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68C216441341AC5400DD716A /* superman-Info.plist */,
+				68C216451341AC5400DD716A /* InfoPlist.strings */,
+				68C216481341AC5400DD716A /* superman-Prefix.pch */,
+				68C216491341AC5400DD716A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68C216371341AC5400DD716A /* superman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C216531341AC5400DD716A /* Build configuration list for PBXNativeTarget "superman" */;
+			buildPhases = (
+				68C216341341AC5400DD716A /* Sources */,
+				68C216351341AC5400DD716A /* Frameworks */,
+				68C216361341AC5400DD716A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = superman;
+			productName = superman;
+			productReference = 68C216381341AC5400DD716A /* superman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68C2162F1341AC5400DD716A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 68C216321341AC5400DD716A /* Build configuration list for PBXProject "superman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68C2162D1341AC5400DD716A;
+			productRefGroup = 68C216391341AC5400DD716A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68C216371341AC5400DD716A /* superman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68C216361341AC5400DD716A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C216471341AC5400DD716A /* InfoPlist.strings in Resources */,
+				68C216501341AC5400DD716A /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68C216341341AC5400DD716A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C2164A1341AC5400DD716A /* main.m in Sources */,
+				68C2164D1341AC5400DD716A /* supermanAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68C216451341AC5400DD716A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C216461341AC5400DD716A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68C2164E1341AC5400DD716A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68C2164F1341AC5400DD716A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68C216511341AC5400DD716A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68C216521341AC5400DD716A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		68C216541341AC5400DD716A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "superman/superman-Prefix.pch";
+				INFOPLIST_FILE = "superman/superman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68C216551341AC5400DD716A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "superman/superman-Prefix.pch";
+				INFOPLIST_FILE = "superman/superman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68C216321341AC5400DD716A /* Build configuration list for PBXProject "superman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C216511341AC5400DD716A /* Debug */,
+				68C216521341AC5400DD716A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C216531341AC5400DD716A /* Build configuration list for PBXNativeTarget "superman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C216541341AC5400DD716A /* Debug */,
+				68C216551341AC5400DD716A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68C2162F1341AC5400DD716A /* Project object */;
+}
