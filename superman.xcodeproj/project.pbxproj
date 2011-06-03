@@ -7,27 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		687100061341C2FC0058B944 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687100051341C2FC0058B944 /* CoreLocation.framework */; };
+		687100171341C35C0058B944 /* GetLocationSetupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6871000F1341C35C0058B944 /* GetLocationSetupView.xib */; };
+		687100181341C35C0058B944 /* GetLocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687100111341C35C0058B944 /* GetLocationView.xib */; };
+		687100191341C35C0058B944 /* TrackLocationSetupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687100131341C35C0058B944 /* TrackLocationSetupView.xib */; };
+		6871001A1341C35C0058B944 /* TrackLocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687100151341C35C0058B944 /* TrackLocationView.xib */; };
+		6871001E1341C38C0058B944 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6871001C1341C38C0058B944 /* MainWindow.xib */; };
+		6871FFDD1341AD420058B944 /* bullseye.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871FFD41341AD420058B944 /* bullseye.png */; };
+		6871FFDE1341AD420058B944 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871FFD51341AD420058B944 /* Default.png */; };
+		6871FFDF1341AD420058B944 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871FFD61341AD420058B944 /* Icon-72.png */; };
+		6871FFE01341AD420058B944 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871FFD71341AD420058B944 /* Icon-Small-50.png */; };
+		6871FFE11341AD420058B944 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871FFD81341AD420058B944 /* Icon-Small.png */; };
+		6871FFE21341AD420058B944 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871FFD91341AD420058B944 /* Icon-Small@2x.png */; };
+		6871FFE31341AD420058B944 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871FFDA1341AD420058B944 /* Icon.png */; };
+		6871FFE41341AD420058B944 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871FFDB1341AD420058B944 /* Icon@2x.png */; };
+		6871FFE51341AD420058B944 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6871FFDC1341AD420058B944 /* pin.png */; };
+		6871FFF31341AD5B0058B944 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871FFE81341AD5B0058B944 /* AppDelegate.m */; };
+		6871FFF41341AD5B0058B944 /* CLLocation (Strings).m in Sources */ = {isa = PBXBuildFile; fileRef = 6871FFEA1341AD5B0058B944 /* CLLocation (Strings).m */; };
+		6871FFF51341AD5B0058B944 /* GetLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871FFEC1341AD5B0058B944 /* GetLocationViewController.m */; };
+		6871FFF61341AD5B0058B944 /* LocationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871FFEE1341AD5B0058B944 /* LocationDetailViewController.m */; };
+		6871FFF71341AD5B0058B944 /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871FFF01341AD5B0058B944 /* SetupViewController.m */; };
+		6871FFF81341AD5B0058B944 /* TrackLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6871FFF21341AD5B0058B944 /* TrackLocationViewController.m */; };
 		68C2163D1341AC5400DD716A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C2163C1341AC5400DD716A /* UIKit.framework */; };
 		68C2163F1341AC5400DD716A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C2163E1341AC5400DD716A /* Foundation.framework */; };
 		68C216411341AC5400DD716A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C216401341AC5400DD716A /* CoreGraphics.framework */; };
 		68C216471341AC5400DD716A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68C216451341AC5400DD716A /* InfoPlist.strings */; };
 		68C2164A1341AC5400DD716A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C216491341AC5400DD716A /* main.m */; };
 		68C2164D1341AC5400DD716A /* supermanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C2164C1341AC5400DD716A /* supermanAppDelegate.m */; };
-		68C216501341AC5400DD716A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68C2164E1341AC5400DD716A /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		687100051341C2FC0058B944 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		687100101341C35C0058B944 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GetLocationSetupView.xib; sourceTree = "<group>"; };
+		687100121341C35C0058B944 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GetLocationView.xib; sourceTree = "<group>"; };
+		687100141341C35C0058B944 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackLocationSetupView.xib; sourceTree = "<group>"; };
+		687100161341C35C0058B944 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackLocationView.xib; sourceTree = "<group>"; };
+		6871001D1341C38C0058B944 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6871FFD41341AD420058B944 /* bullseye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullseye.png; sourceTree = "<group>"; };
+		6871FFD51341AD420058B944 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6871FFD61341AD420058B944 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		6871FFD71341AD420058B944 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		6871FFD81341AD420058B944 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		6871FFD91341AD420058B944 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		6871FFDA1341AD420058B944 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6871FFDB1341AD420058B944 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		6871FFDC1341AD420058B944 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		6871FFE71341AD5B0058B944 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6871FFE81341AD5B0058B944 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6871FFE91341AD5B0058B944 /* CLLocation (Strings).h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation (Strings).h"; sourceTree = "<group>"; };
+		6871FFEA1341AD5B0058B944 /* CLLocation (Strings).m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation (Strings).m"; sourceTree = "<group>"; };
+		6871FFEB1341AD5B0058B944 /* GetLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetLocationViewController.h; sourceTree = "<group>"; };
+		6871FFEC1341AD5B0058B944 /* GetLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetLocationViewController.m; sourceTree = "<group>"; };
+		6871FFED1341AD5B0058B944 /* LocationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailViewController.h; sourceTree = "<group>"; };
+		6871FFEE1341AD5B0058B944 /* LocationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailViewController.m; sourceTree = "<group>"; };
+		6871FFEF1341AD5B0058B944 /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		6871FFF01341AD5B0058B944 /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		6871FFF11341AD5B0058B944 /* TrackLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackLocationViewController.h; sourceTree = "<group>"; };
+		6871FFF21341AD5B0058B944 /* TrackLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackLocationViewController.m; sourceTree = "<group>"; };
 		68C216381341AC5400DD716A /* superman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C2163C1341AC5400DD716A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		68C2163E1341AC5400DD716A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68C216401341AC5400DD716A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		68C216441341AC5400DD716A /* superman-Info.plist */ = {isa = PBXFileReference; path = "superman-Info.plist"; sourceTree = "<group>"; };
+		68C216441341AC5400DD716A /* superman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "superman-Info.plist"; sourceTree = "<group>"; };
 		68C216461341AC5400DD716A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		68C216481341AC5400DD716A /* superman-Prefix.pch */ = {isa = PBXFileReference; path = "superman-Prefix.pch"; sourceTree = "<group>"; };
+		68C216481341AC5400DD716A /* superman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "superman-Prefix.pch"; sourceTree = "<group>"; };
 		68C216491341AC5400DD716A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		68C2164B1341AC5400DD716A /* supermanAppDelegate.h */ = {isa = PBXFileReference; path = supermanAppDelegate.h; sourceTree = "<group>"; };
+		68C2164B1341AC5400DD716A /* supermanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = supermanAppDelegate.h; sourceTree = "<group>"; };
 		68C2164C1341AC5400DD716A /* supermanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supermanAppDelegate.m; sourceTree = "<group>"; };
-		68C2164F1341AC5400DD716A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687100061341C2FC0058B944 /* CoreLocation.framework in Frameworks */,
 				68C2163D1341AC5400DD716A /* UIKit.framework in Frameworks */,
 				68C2163F1341AC5400DD716A /* Foundation.framework in Frameworks */,
 				68C216411341AC5400DD716A /* CoreGraphics.framework in Frameworks */,
@@ -44,9 +91,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6871FFD31341AD420058B944 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				6871FFD41341AD420058B944 /* bullseye.png */,
+				6871FFD51341AD420058B944 /* Default.png */,
+				6871FFD61341AD420058B944 /* Icon-72.png */,
+				6871FFD71341AD420058B944 /* Icon-Small-50.png */,
+				6871FFD81341AD420058B944 /* Icon-Small.png */,
+				6871FFD91341AD420058B944 /* Icon-Small@2x.png */,
+				6871FFDA1341AD420058B944 /* Icon.png */,
+				6871FFDB1341AD420058B944 /* Icon@2x.png */,
+				6871FFDC1341AD420058B944 /* pin.png */,
+			);
+			name = images;
+			path = superman/images;
+			sourceTree = "<group>";
+		};
+		6871FFE61341AD5B0058B944 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6871FFE71341AD5B0058B944 /* AppDelegate.h */,
+				6871FFE81341AD5B0058B944 /* AppDelegate.m */,
+				6871FFE91341AD5B0058B944 /* CLLocation (Strings).h */,
+				6871FFEA1341AD5B0058B944 /* CLLocation (Strings).m */,
+				6871FFEB1341AD5B0058B944 /* GetLocationViewController.h */,
+				6871FFEC1341AD5B0058B944 /* GetLocationViewController.m */,
+				6871FFED1341AD5B0058B944 /* LocationDetailViewController.h */,
+				6871FFEE1341AD5B0058B944 /* LocationDetailViewController.m */,
+				6871FFEF1341AD5B0058B944 /* SetupViewController.h */,
+				6871FFF01341AD5B0058B944 /* SetupViewController.m */,
+				6871FFF11341AD5B0058B944 /* TrackLocationViewController.h */,
+				6871FFF21341AD5B0058B944 /* TrackLocationViewController.m */,
+			);
+			name = Classes;
+			path = superman/Classes;
+			sourceTree = "<group>";
+		};
 		68C2162D1341AC5400DD716A = {
 			isa = PBXGroup;
 			children = (
+				687100051341C2FC0058B944 /* CoreLocation.framework */,
+				6871FFE61341AD5B0058B944 /* Classes */,
+				6871FFD31341AD420058B944 /* images */,
 				68C216421341AC5400DD716A /* superman */,
 				68C2163B1341AC5400DD716A /* Frameworks */,
 				68C216391341AC5400DD716A /* Products */,
@@ -74,9 +161,13 @@
 		68C216421341AC5400DD716A /* superman */ = {
 			isa = PBXGroup;
 			children = (
+				6871001C1341C38C0058B944 /* MainWindow.xib */,
+				6871000F1341C35C0058B944 /* GetLocationSetupView.xib */,
+				687100111341C35C0058B944 /* GetLocationView.xib */,
+				687100131341C35C0058B944 /* TrackLocationSetupView.xib */,
+				687100151341C35C0058B944 /* TrackLocationView.xib */,
 				68C2164B1341AC5400DD716A /* supermanAppDelegate.h */,
 				68C2164C1341AC5400DD716A /* supermanAppDelegate.m */,
-				68C2164E1341AC5400DD716A /* MainWindow.xib */,
 				68C216431341AC5400DD716A /* Supporting Files */,
 			);
 			path = superman;
@@ -141,7 +232,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				68C216471341AC5400DD716A /* InfoPlist.strings in Resources */,
-				68C216501341AC5400DD716A /* MainWindow.xib in Resources */,
+				6871FFDD1341AD420058B944 /* bullseye.png in Resources */,
+				6871FFDE1341AD420058B944 /* Default.png in Resources */,
+				6871FFDF1341AD420058B944 /* Icon-72.png in Resources */,
+				6871FFE01341AD420058B944 /* Icon-Small-50.png in Resources */,
+				6871FFE11341AD420058B944 /* Icon-Small.png in Resources */,
+				6871FFE21341AD420058B944 /* Icon-Small@2x.png in Resources */,
+				6871FFE31341AD420058B944 /* Icon.png in Resources */,
+				6871FFE41341AD420058B944 /* Icon@2x.png in Resources */,
+				6871FFE51341AD420058B944 /* pin.png in Resources */,
+				687100171341C35C0058B944 /* GetLocationSetupView.xib in Resources */,
+				687100181341C35C0058B944 /* GetLocationView.xib in Resources */,
+				687100191341C35C0058B944 /* TrackLocationSetupView.xib in Resources */,
+				6871001A1341C35C0058B944 /* TrackLocationView.xib in Resources */,
+				6871001E1341C38C0058B944 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,26 +258,64 @@
 			files = (
 				68C2164A1341AC5400DD716A /* main.m in Sources */,
 				68C2164D1341AC5400DD716A /* supermanAppDelegate.m in Sources */,
+				6871FFF31341AD5B0058B944 /* AppDelegate.m in Sources */,
+				6871FFF41341AD5B0058B944 /* CLLocation (Strings).m in Sources */,
+				6871FFF51341AD5B0058B944 /* GetLocationViewController.m in Sources */,
+				6871FFF61341AD5B0058B944 /* LocationDetailViewController.m in Sources */,
+				6871FFF71341AD5B0058B944 /* SetupViewController.m in Sources */,
+				6871FFF81341AD5B0058B944 /* TrackLocationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		6871000F1341C35C0058B944 /* GetLocationSetupView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687100101341C35C0058B944 /* en */,
+			);
+			name = GetLocationSetupView.xib;
+			sourceTree = "<group>";
+		};
+		687100111341C35C0058B944 /* GetLocationView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687100121341C35C0058B944 /* en */,
+			);
+			name = GetLocationView.xib;
+			sourceTree = "<group>";
+		};
+		687100131341C35C0058B944 /* TrackLocationSetupView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687100141341C35C0058B944 /* en */,
+			);
+			name = TrackLocationSetupView.xib;
+			sourceTree = "<group>";
+		};
+		687100151341C35C0058B944 /* TrackLocationView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				687100161341C35C0058B944 /* en */,
+			);
+			name = TrackLocationView.xib;
+			sourceTree = "<group>";
+		};
+		6871001C1341C38C0058B944 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6871001D1341C38C0058B944 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
 		68C216451341AC5400DD716A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				68C216461341AC5400DD716A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		68C2164E1341AC5400DD716A /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				68C2164F1341AC5400DD716A /* en */,
-			);
-			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -220,6 +362,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "superman/superman-Prefix.pch";
 				INFOPLIST_FILE = "superman/superman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -233,6 +376,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "superman/superman-Prefix.pch";
 				INFOPLIST_FILE = "superman/superman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -258,6 +402,7 @@
 				68C216551341AC5400DD716A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
